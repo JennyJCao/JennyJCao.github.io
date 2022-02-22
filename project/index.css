@@ -1,7 +1,18 @@
 #navbarProject {
-    background-color: gray;
+    background-color: purple;
 }
 
 .content {
     margin-left: 40px;
+}
+
+#account {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+}
+ul:first-child li {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    font-style: italic;
+    margin-top:4px;
 }

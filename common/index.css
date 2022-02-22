@@ -2,7 +2,7 @@
 .navbar {
     height: 50px;
     width: 100%;
-    background-color:rgb(208, 200, 208);
+    background-color:rgb(152, 92, 152);
     position:fixed;
     top:0;
     z-index: 10;
@@ -15,7 +15,7 @@
 
 
 .navbarItem {
-    font-size: medium;
+    font-size: large;
     height: 30px;
     width: 30%;
     margin: 5%;
@@ -26,14 +26,13 @@
 
 .navbarItem a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
-
-
 
 .navbarItem:hover {
     text-decoration:underline;
     font-size: larger;
+    font-weight: bold;
     background-color: gray;
 }
 
@@ -43,6 +42,16 @@
     top: 50px;
     width: 100%;
     margin-top: 2px;
-    background-color: aquamarine;
-    padding: 5%;
+    padding-top: 20px;
+    padding-left:1%;
+}
+
+/* media */
+@media(max-width: 400px) {
+    .navbarItem {
+        font-size: small;
+    }
+    .navbarItem:hover {
+        font-size: medium;
+    }
 }

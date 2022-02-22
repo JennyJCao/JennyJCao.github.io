@@ -5,6 +5,40 @@
         <meta name="viewport" content="width=device-width">
         <title>Jing Cao's website</title>
         <link rel="stylesheet" href="./common/index.css">
+        <link rel="stylesheet" href="index.css">
+        <style>
+            .navbarItem:first-child {
+                background-color: purple;
+            }
+
+            #photo {
+                height: 300px;
+            }
+
+            ul {
+                margin: 0px;
+            }
+
+            .education {
+                margin: 2%;
+                padding: 2%;
+            }
+
+            .school {
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-size: larger;
+                font-weight: bold;
+                margin-bottom: 2%;
+            }
+
+            #skill {
+                font-family: 'Courier New', Courier, monospace;
+                font-style: italic;
+                font-size: medium;
+                font-weight: 600;
+            }
+
+        </style>
 
     </head>
     <body>
@@ -24,6 +58,48 @@
         </div>
 
         <div class="container">
+            <h1>Photo</h1>
+            <img src="./img/photo.jpg" id="photo">
+
+            <h1>Education</h1>
+            <div class="education">
+                <div class="school"><a href="https://www.northeastern.edu/">Northeastern University</a></div>
+                <div>Master of Science in Computer Science</div>
+                <div>GPA: 4.0/4.0</div>
+                <div>Seattle, WA</div>
+                <div>Sept 2021 - Expected May 2023</div>
+                <div>Courses:</div>
+                <ul>
+                    <li>Programming Design Paradigm(Java)</li>
+                    <li>Mobile Application Development</li>
+                    <li>Web Development</li>
+                    <li>Algoritms</li>
+                    <li>Scalable Distributed Systems</li>
+                </ul>
+            </div>
+            <div class="education">
+                <div class="school"><a href="https://www.nju.edu.cn/en/main.psp">Nanjing University</a></div>
+                <div>Bachelor of Management</div>
+                <div>GPA: 89.2/100</div>
+                <div>Nanjing, China</div>
+                <div>Sept 2016 - Jul 2020</div>
+                <div>Courses:</div>
+                <ul>
+                    <li>Computer Systems</li>
+                    <li>Operating System and Linux Programming</li>
+                    <li>Algorithm Design and Analysis</li>
+                    <li>Object-oriented Programming(C++)</li>
+                    <li>Information Security</li>
+                </ul>
+            </div>
+
+            <h1>Technical Skills</h1>
+            <ul id="skill">
+                <li>Languages: Java, JavaScript, Python, C/C++, Go</li>
+                <li>Framework: Spring Boot/Security, Django, Express.js, React.js, GraphQL, MyBatis</li>
+                <li>Database: MySQL, PostgreSQL, MongoDB, Redis</li>
+                <li>Tools: Git, AWS, RabbitMQ, Docker, ElasticSearch, WebSockets</li>
+            </ul>
 
         </div>
     </body>

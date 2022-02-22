@@ -1,0 +1,39 @@
+.cookingImageContainer {
+    display: grid;
+    grid-template-areas: "img1 img1 img1"
+                         "img1 img1 img1"
+                         "img1 img1 img1";
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 30px;
+    height: max-content;
+}
+
+#desc {
+    font-size: larger;
+    font-weight: bold;
+}
+
+.cookingImage {
+    margin: 2px;
+}
+
+#dishName {
+    height:max-content;
+    font-size: large;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.cookingImage img {
+    width: 80%;
+    grid-area: img1;
+}
+
+.container {
+    text-align: center;
+}
+
+#navbarInterest {
+    background-color: purple;
+}
