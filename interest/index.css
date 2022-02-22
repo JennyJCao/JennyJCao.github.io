@@ -26,8 +26,13 @@
 }
 
 .cookingImage img {
-    width: 80%;
+    width: 70%;
     grid-area: img1;
+}
+
+.cookingImage img:hover {
+    width: 100%;
+    transition: 0.5s;
 }
 
 .container {
