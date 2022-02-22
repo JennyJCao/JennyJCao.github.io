@@ -5,7 +5,35 @@
         <meta name="viewport" content="width=device-width">
         <title>interest</title>
         <link rel="stylesheet" href="../common/index.css">
+        <style>
+            .cookingImageContainer {
+                display: grid;
+                grid-template-areas: "img1 img1 img1"
+                                     "img1 img1 img1"
+                                     "img1 img1 img1";
+                grid-template-rows: 1fr 1fr 1fr;
+                grid-template-columns: 1fr 1fr 1fr;
+                margin-top: 30px;
+                height: max-content;
+            }
 
+            .cookingImage {
+                margin: 2px;
+            }
+
+            #dishName {
+                height:max-content;
+                font-size: large;
+                font-weight: bold;
+                margin: 10px;
+            }
+
+            .cookingImage img {
+                width: 80%;
+                object-position: bottom;
+                grid-area: img1;
+            }
+        </style>
     </head>
     <body>
         <div class="navbar">
@@ -23,7 +51,41 @@
             </div>
         </div>
 
-        <div>
+        <div class="container">
+            <h1>Interest: Cooking</h1>
+            <div>
+                Here are some pictures of the dishes I made.
+            </div>
+            <div class="cookingImageContainer">
+                <div class="cookingImage">
+                    <img src="../img/img1.png">
+                    <div id="dishName">Sour soup with beef</div>
+                </div>
+                <div class="cookingImage">
+                    <img src="../img/img2.png">
+                    <div id="dishName">Minced pork and lotus root clip</div>
+                </div>
+                <div class="cookingImage">
+                    <img src="../img/img6.png">
+                    <div id="dishName">Braised pork knuckle</div>
+                </div>
+                <div class="cookingImage">
+                    <img src="../img/img5.png">
+                    <div id="dishName">Enoki Mushroom Bean Curd Roll</div>
+                </div>
+                <div class="cookingImage">
+                    <img src="../img/img4.png">
+                    <div id="dishName">Snow Cabbage Edamame Shredded Pork</div>
+                </div>
+               
+                <div class="cookingImage">
+                    <img src="../img/img7.png">
+                    <div id="dishName">Roasted milk</div>
+                </div>
+
+
+
+            </div>
 
         </div>
     </body>
