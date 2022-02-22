@@ -1,0 +1,30 @@
+.navbarItem:first-child {
+    background-color: purple;
+}
+
+#photo {
+    height: 300px;
+}
+
+ul {
+    margin: 0px;
+}
+
+.education {
+    margin: 2%;
+    padding: 2%;
+}
+
+.school {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+
+#skill {
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-size: medium;
+    font-weight: 600;
+}
