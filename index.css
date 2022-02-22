@@ -23,8 +23,13 @@ ul {
 }
 
 #skill {
-    font-family: 'Courier New', Courier, monospace;
-    font-style: italic;
     font-size: medium;
-    font-weight: 600;
+    font-weight: 300;
+}
+
+.skillType {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    font-style: italic;
+    font-weight: bolder;
 }
