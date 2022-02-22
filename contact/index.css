@@ -1,0 +1,10 @@
+ul li {
+    font-size: small;
+    margin: 5%;
+    
+    font-weight: bold;
+}
+
+.navbarItem:last-child {
+    background-color: gray;
+}
