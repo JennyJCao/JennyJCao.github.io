@@ -24,10 +24,12 @@
     justify-content: center;
 }
 
-a {
+.navbarItem a {
     text-decoration: none;
     color: black;
 }
+
+
 
 .navbarItem:hover {
     text-decoration:underline;
@@ -46,5 +48,5 @@ a.active {
     width: 100%;
     margin-top: 2px;
     background-color: aquamarine;
-    padding: 10%;
+    padding: 5%;
 }
